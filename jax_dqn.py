@@ -1,4 +1,4 @@
-import time, warnings
+import pdb, time, warnings
 import jax, flax, optax, rlax, chex, gymnax, flashbax as fbx
 
 from flax import linen as nn
@@ -194,7 +194,7 @@ print(f"time: {time.time() - t0:.2f} s")
 
 for i in range(10):
     plt.plot(outs["returned_episode_returns"][i].mean(-1).reshape(-1))
-plt.xlabel("Update Step")
+plt.xlabel("Epoch")
 plt.ylabel("Return")
 plt.show()
-plt.savefig('run.png')
+plt.savefig('run_epoch.png')
