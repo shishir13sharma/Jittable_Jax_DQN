@@ -23,4 +23,5 @@ Now to the fun stuff. Writing the training loop as a pure function allows us to 
 
 Below is the resultant plot for the 10 runs:
 ![alt text](run_epoch.png)
-![ALT TEXT](run_epoch.png)
+
+On my machine, it took less than 13 seconds in total for all 10 runs!
