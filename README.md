@@ -1,4 +1,4 @@
-# jit_jax_DQN
+# Jittable_Jax_DQN
 A Double DQN implementation in Jax, with the whole training loop being jittable. 
 
 I recently started using Jax and to my surprise couldn't find a jax implementation of DQN which is simple but also highlights the benefits of using Jax. Here I will try to mention some pitfalls that I encountered when transferring from Pytorch to Jax. 
