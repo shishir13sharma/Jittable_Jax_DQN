@@ -15,7 +15,7 @@ While Pytorch provides all the basic building blocks for training a DQN in one p
 
 5) For extra attributes that might be useful, it's best to extend the TrainState dataclass to include extra stuff.
 
-6) Gymnax is amazing. Vectorized environments allow us to run so many in parallel. If you look at the cfg directory, we run 64 environments in parallel and perform one step of interaction at each epoch. Flashbax allows adding all the 64 interactions to the buffer together.
+6) Gymnax is amazing. Vectorized environments allow us to run so many in parallel. If you look at the cfg dictionary, we run 64 environments in parallel and perform one step of interaction at each epoch. Flashbax allows adding all the 64 interactions to the buffer together.
 
 7) The LogWrapper provides a simple returned_episode_returns for the returns of all episodes. We simply average them over all environments and plot it as function of each epoch.
 
